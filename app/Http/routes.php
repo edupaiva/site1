@@ -14,7 +14,7 @@
 //Route::get('/', function () {    return view('welcome');});
 
 
-Route::get('/', 'PagesController@index')->name('pages.home');
+Route::get('/', 'PagesController@index');
 Route::get('/produtos', 'PagesController@produtos')->name('pages.product');
 Route::get('/estrutura', 'PagesController@estrutura')->name('pages.structure');
 Route::get('/contatos', 'PagesController@contatos')->name('pages.contact');
